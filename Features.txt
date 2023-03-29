@@ -1,0 +1,13 @@
+Features of the project - Know Thy History->
+
+1.Users can browse Different topics
+2.Users can search the topics using different tags
+3.User can comment on topics
+
+5.The page will show featured topics on top page
+4.The page will have sub-sections on important words
+5.The page will help author sort their article based on different tags
+
+6.Authors can write articles
+7.Author can reply on the comments on their articles
+8.Author can delete comments on their articles
