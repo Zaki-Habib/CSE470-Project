@@ -1,13 +1,35 @@
 Features of the project - Know Thy History->
 
-1.Users can browse Different topics
-2.Users can search the topics using different tags
-3.User can comment on topics
+User Account
+Search for content by filtering with date, name etc	
+Contact the author of the article	
+Report to the support authority about any problem such as offensive word	
+Comment and reply about what they think of an article	
 
-5.The page will show featured topics on top page
-4.The page will have sub-sections on important words
-5.The page will help author sort their article based on different tags
 
-6.Authors can write articles
-7.Author can reply on the comments on their articles
-8.Author can delete comments on their articles
+Author account	
+Author can write any article related to History.	
+Author can edit their own articles.	
+Articles written by the author will be listed for him	
+Author will be able to reply their own articles comment section	
+
+
+Easy app/Webpage design for people	
+Main themes about different informations will be set up as Icons	
+Top pages based on most searches will be shown on the homepage	
+A Suggestions par will be shown in the homepage for easier start for newcomers	
+The search bar will have the feature to sort out name possibilities as the user types manually.	
+
+
+Article Page	
+Images related to the event will be available to see	
+Outside link of similar articles of the specific events will be given such as link of an event in wikipidia 	
+Many important words like name of an important figure will be clickable which will then direct the user to a different page related to that word's information.	
+A google map feature will be present in most articles to direct users where exactly the event occured, such as location of a battlefield	
+Sponsorship 	A section will be reserved for sponsors	The sponsors can dictate which one to show most if they have multiple adds	
+The sponsoring adds will change randomly every 5 minitues	
+There will be a link to the sponsors website if the user clicks
+
+Login-
+1.System will verify if the person logged in is a user or an author
+2.When creating account, same username will not be granted"
