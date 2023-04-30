@@ -23,9 +23,71 @@
     <meta name="theme-color" content="#478ac9">
     <meta property="og:title" content="Heli">
     <meta property="og:type" content="website">
-  <meta data-intl-tel-input-cdn-path="intlTelInput/"></head>
+  <meta data-intl-tel-input-cdn-path="intlTelInput/">
+  <style media ="screen">
+    *{
+      margin: 0; padding: 0;
+      box-sizing: border-box;
+      text-transform: capitalize;
+      font-family: verdana;
+      border: none;
+      outline: none;
+      letter-spacing: 2px;
+    }
+    
+
+    .container{
+      width:500px;
+      text-align:center;
+    }
+    .box-container{
+      height: 200px;
+      width:100%;
+      background:#c6c5c5;
+      box-shadow: 0 5px 15px #cd3b3b;
+      border-radius: 5px;
+      padding: 15px;
+    }
+    .box-container.box{
+      height:80%;
+      width:100%;
+      border-radius:5px;
+      padding: 10px;
+      background: #f8f8f8;
+      overflow-y:auto;
+      text-align: left;
+    }
+
+    #input{
+      width:100%;
+      height:40px;
+      background:none;
+      font-size:20px;
+      border-bottom: 1px solid #fff;
+    }
+    #input:focus{
+      border-bottom: 2px solid #fff;
+    }
+    button{
+      width:160px;
+      height:30px;
+      background: #ff0033;
+      color:#fff;
+      cursor: pointer;
+      margin: 10px 0;
+      font-size:15px;
+      box-shadow: 0 3px 10px #d0cccc;
+      border-radius: 5px;
+    }
+
+    button:hover{
+      opacity: .8;
+    }
+ </style>
+    <script src="jquery.js" charset="utf-8"></script>
+</head>
   <body class="u-body u-xl-mode" data-lang="en"><header class="u-clearfix u-header u-header" id="sec-f7e6"><div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
-        <a href="https://nicepage.com" class="u-image u-logo u-image-1" data-image-width="800" data-image-height="800">
+        <a href="Home.html" class="u-image u-logo u-image-1" data-image-width="800" data-image-height="800">
           <img src="images/Rome.png" class="u-logo-image u-logo-image-1">
         </a>
         <p class="u-text u-text-palette-2-base u-text-1">Know Thy History</p>
@@ -87,19 +149,34 @@
         </div>
       </div>
     </section>
+    <h5 align="center">Written by<br>ZHAR<br></h5>
+    <center><a href="Author.html"><h4>Author Info</h4></a></center>
+    <div class="container">
+      <input type="text" id="input" placeholder="Comment">
+      <button type="button" name="button" id="cancel">cancel</button>
+      <button type="button" name="button" id="comment">comment</button>
     
+      <div class="box-container">
+        <div class="box"></div>
+        <button type="button" name="button" id="delete">delete</button>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('#comment').click(function(){
+          var input = $('#input').val();
+          $('.box').append(input+ '<br>');
+          $('#input').val('');
+        });
+        $('#cancel').click(function(){
+          $('#input').val('');
+        });  
+        $('#delete').click(function(){
+          $('.box').text('');
+        });  
+      });
+    </script>
     
-    <footer class="u-align-center u-clearfix u-footer u-grey-80 u-footer" id="sec-7c2c"><div class="u-clearfix u-sheet u-sheet-1"></div></footer>
-    <section class="u-backlink u-clearfix u-grey-80">
-      <a class="u-link" href="https://nicepage.com/templates" target="_blank">
-        <span>Template</span>
-      </a>
-      <p class="u-text">
-        <span>created with</span>
-      </p>
-      <a class="u-link" href="" target="_blank">
-        <span>Website Builder Software</span>
-      </a>. 
-    </section>
   
 </body></html>
